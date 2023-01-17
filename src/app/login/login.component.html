@@ -1,0 +1,10 @@
+<p>login works!</p>
+<form>
+    <label for="userId">type your id</label>
+    <input type="text" [(ngModel)]= "userId"  name="userId"><br><br>
+    <label for="lname">password</label>
+    <input type="text" [(ngModel)]= "ePassword" id="ePassword" name="ePassword"><br><br>
+    <input (click)="checkId()" type="submit" value="Submit">
+</form>
+
+  {{msg}}
