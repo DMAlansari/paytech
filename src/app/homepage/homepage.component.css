@@ -1,0 +1,29 @@
+.operations{
+    list-style-type:none;
+}
+
+img {
+    position: relative;
+    top: 10px;
+height: 400px;
+width: auto;
+}
+
+#logo{
+    position: relative;
+    right: 220px;
+    bottom: 160px;
+}
+
+#welcome{
+    position: relative;
+    bottom: 382px;
+    left: 125px;
+
+}
+
+.operations{
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+}
